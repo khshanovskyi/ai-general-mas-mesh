@@ -20,13 +20,14 @@ In this task you will practice with MAS (Multi-Agent Systems) Mesh Architecture 
         "type": "chat",
         "upstreams": [
           {
-            "endpoint": "https://ai-proxy.lab.epam.com/openai/deployments/gpt-4o/chat/completions",
-            "key": "{YOUR_DIAL_API_KEY}"
+            "endpoint": "https://api.openai.com/v1/chat/completions",
+            "key": "${OPENAI_API_KEY}"
           }
         ]
       }
     }
     ```
+    **Note: Don't forget to provide model with your OpenAI API Key**
    - Add Calculations Agent application configuration:
     ```json
     {
@@ -78,7 +79,6 @@ In this task you will practice with MAS (Multi-Agent Systems) Mesh Architecture 
       }
     }
     ```
-    **Note: Don't forget to provide model with your DIAL API Key**
 2. Run [docker-compose](docker-compose.yml)
 3. Check that model is available through the DIAL Chat 👉 http://localhost:3000/
 4. Implement all TODOs in:
