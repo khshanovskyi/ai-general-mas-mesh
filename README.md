@@ -86,7 +86,6 @@ In this task you will practice with MAS (Multi-Agent Systems) Mesh Architecture 
    - [calculations_agent_tool.py](task/tools/deployment/calculations_agent_tool.py)
    - [content_management_agent_tool.py](task/tools/deployment/content_management_agent_tool.py)
    - [web_search_agent_tool.py](task/tools/deployment/web_search_agent_tool.py)
-   - [base_agent.py](task/agents/base_agent.py)
    - [calculations_agent.py](task/agents/calculations/calculations_agent.py)
    - [calculations_app.py](task/agents/calculations/calculations_app.py)
    - [content_management_agent.py](task/agents/content_management/content_management_agent.py)
